@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item
+                    android:color="#FF04060A"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FF0D111B"
+                    android:offset="0.5" />
+                <item
+                    android:color="#FF111B30"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Cyberpunk matrix grids -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M18,0L18,108 M36,0L36,108 M54,0L54,108 M72,0L72,108 M90,0L90,108"
+        android:strokeWidth="0.6"
+        android:strokeColor="#2200FFD5" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,18L108,18 M0,36L108,36 M0,54L108,54 M0,72L108,72 M0,90L108,90"
+        android:strokeWidth="0.6"
+        android:strokeColor="#2200FFD5" />
+    <!-- Perspective convergence lines to represent driving motion -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M10,108L48,54 M98,108L60,54 M54,54L54,0"
+        android:strokeWidth="0.8"
+        android:strokeColor="#4400FFD5" />
+</vector>

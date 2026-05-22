@@ -1,0 +1,6 @@
+{
+  "name": "AR Car Drive",
+  "description": "An interactive 3D augmented reality car driving game using the live mobile camera.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

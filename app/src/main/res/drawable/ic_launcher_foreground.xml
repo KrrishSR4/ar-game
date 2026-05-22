@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Neon outline representing the aerodynamic sports car frame -->
+    <path
+        android:strokeColor="#FF00FFD5"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#151A2E"
+        android:pathData="M26,72 L26,62 C26,56 34,44 42,42 L42,32 C42,28 48,24 54,24 C60,24 66,28 66,32 L66,42 C74,44 82,56 82,62 L82,72 C82,76 76,78 54,78 C32,78 26,76 26,72 Z" />
+
+    <!-- Windshield glass -->
+    <path
+        android:strokeColor="#FFFF00D4"
+        android:strokeWidth="1.8"
+        android:fillColor="#4DFF00D4"
+        android:pathData="M44,42 C44,42 46,36 54,36 C62,36 64,42 64,42 L44,42 Z" />
+
+    <!-- Sleek hood lines / vents -->
+    <path
+        android:strokeColor="#FF00FFD5"
+        android:strokeWidth="1.5"
+        android:pathData="M42,50 L48,58 M66,50 L60,58 M54,46 L54,64" />
+
+    <!-- Dual Laser Headlights (Glowing) -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M32,64 C32,62 36,62 36,64 C36,66 32,66 32,64 Z" />
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M72,64 C72,62 76,62 76,64 C76,66 72,66 72,64 Z" />
+
+    <!-- Glowing underglow flare effect -->
+    <path
+        android:strokeColor="#FF00FFD5"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:pathData="M22,76 L86,76" />
+        
+    <!-- Spoiler wing on the back -->
+    <path
+        android:strokeColor="#FFFF00D4"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M24,34 L32,34 M84,34 L76,34 M28,34 L80,34" />
+</vector>
